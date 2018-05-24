@@ -22,6 +22,31 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Mock Endpoints
+
+### Basic Page Info
+
+[http://vue.haukebrinkmann.de/_pizza/page.json](http://vue.haukebrinkmann.de/_pizza/page.json)
+
+### Collection of Stores
+
+[http://vue.haukebrinkmann.de/_pizza/stores.json](http://vue.haukebrinkmann.de/_pizza/stores.json)
+
+### Specific Store Details
+
+#### Antonio
+
+[http://vue.haukebrinkmann.de/_pizza/store_antonio.json](http://vue.haukebrinkmann.de/_pizza/store_antonio.json)
+
+#### Giovanni
+
+[http://vue.haukebrinkmann.de/_pizza/store_giovanni.json](http://vue.haukebrinkmann.de/_pizza/store_giovanni.json)
+
+#### Marco
+
+[http://vue.haukebrinkmann.de/_pizza/store_marco.json](http://vue.haukebrinkmann.de/_pizza/store_marco.json)
+
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
