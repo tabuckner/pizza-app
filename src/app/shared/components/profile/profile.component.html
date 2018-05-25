@@ -1,14 +1,17 @@
-<div class="profile">
-  <div class="profile__avatar">
-    <img [src]='avatar' alt="users_avatar">
-  </div>
-  <div class="profile__name">
-    {{ name }}
-  </div>
-  <div class="profile__bio">
-    {{ bio }}
-  </div>
-  <div class="profile__stores" *ngIf="stores">
-      {{ stores }}
-  </div>
-</div>
+<mat-card class="profile">
+  <mat-card-header>
+    <mat-card-title>{{ name }}</mat-card-title>
+    <mat-card-subtitle>Stores: {{ stores }}</mat-card-subtitle>
+    <img mat-card-avatar [src]="avatar" alt="avatar" class="profile__avatar">
+  </mat-card-header>
+  <img mat-card-image [src]="avatar" alt="users_avatar" class="image">
+  <mat-card-content>
+    <p>
+      {{ bio }}
+    </p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-button>Action 1</button>
+    <button mat-button>Action 2</button>
+  </mat-card-actions>
+</mat-card>
