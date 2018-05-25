@@ -1,0 +1,14 @@
+<div class="profile">
+  <div class="profile__avatar">
+    <img [src]='avatar' alt="users_avatar">
+  </div>
+  <div class="profile__name">
+    {{ name }}
+  </div>
+  <div class="profile__bio">
+    {{ bio }}
+  </div>
+  <div class="profile__stores" *ngIf="stores">
+      {{ stores }}
+  </div>
+</div>

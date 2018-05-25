@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.3.
 
+### A VUE pizza code challenge
+This is a training exercise, not a real world project. Feel free to change any information or the markup.
+
+### THE CHALLENGE
+A pizza restaurant chain would like to have a restaurant list and restaurant detail pages if the restaurant owner wants one. The guests should be able to reserve a table if the restaurants offers it.
+To be able to start right away, I made some sample data. They consist of several json files, just like you would get the info from a REST API.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
